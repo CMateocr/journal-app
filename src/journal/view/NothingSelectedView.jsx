@@ -17,7 +17,6 @@ export const NothingSelectedView = () => {
       }}
     >
 
-      {/* <Grid2 size={{ xs: 12 }}> */}
       <Grid2 >
         <StarOutline sx={{ fontSize: 100, color: 'white' }} />
       </Grid2>

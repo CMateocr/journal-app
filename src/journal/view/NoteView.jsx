@@ -125,7 +125,7 @@ export const NoteView = () => {
         />
       </Grid2>
 
-      <Grid2 container justifyContent="end" size={{ xs: 12 }}>
+      <Grid2 container>
         <Button
           onClick={ onDelete }
           sx={{ mt: 2 }}

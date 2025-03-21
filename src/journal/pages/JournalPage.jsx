@@ -18,16 +18,11 @@ export const JournalPage = () => {
 
   return (
     <JournalLayout>
-      {/* <Typography variant="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos mollitia aliquid nemo repudiandae vero nesciunt numquam minus quis unde pariatur quidem molestias illum non at eligendi, aperiam expedita praesentium aut?</Typography> */}
-
       {
         ( !active ) 
         ? <NothingSelectedView/>
         : <NoteView/>
       }
-
-
-      {/* <NoteView/> */}
 
       <IconButton
         disabled={ isSaving }
